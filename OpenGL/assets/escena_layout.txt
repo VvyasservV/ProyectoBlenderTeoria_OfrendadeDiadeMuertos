@@ -1,0 +1,10 @@
+# Escena del panteon. Una linea por objeto: modelo  x y z  rotY(grados)  escala
+# Coordenadas de OpenGL (Y arriba), en metros. Convertido desde Blender con x_gl=x, y_gl=z, z_gl=-y.
+# El modelo se carga una vez y se dibuja en cada posicion: model = T(x,y,z) * Ry(rotY) * S(escala)
+# Opcional al final: tinte r g b que se multiplica por la textura (tumbas pintadas, velas de color, arboles).
+# Cada vela lleva su flama (assets/models/flama) y es una luz puntual candidata.
+escenario 0.000 0.000 0.000 0.0 1.000
+capilla 0.000 0.000 -6.200 0.0 0.750
+
+
+# ambientacion (12 nov): poses, cosas de familia, cruz atrial, zona vieja y petalos

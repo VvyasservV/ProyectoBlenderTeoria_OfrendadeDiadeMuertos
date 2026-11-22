@@ -64,6 +64,28 @@ El directorio de trabajo tiene que ser la carpeta `OpenGL/`, porque ahí están 
 
 Los `.blend` usan rutas relativas a `Texturas/`, así que hay que conservar la estructura de carpetas. Los modelos chicos del mismo tipo están juntos en un archivo, cada uno en su colección con el nombre que usa OpenGL.
 
+## Modelos por integrante
+
+| Integrante | Archivos | Modelos |
+|---|---|---|
+| Yasser | `Modelos/Yasser/` | Flor de cempasúchil, flor baja, pétalos del camino y de tumba, portarretratos, calaverita, guirnalda y guirnalda baja (`flores.blend`, `adornos.blend`, `cosas_familia.blend`), florero, tapetes de cruz y de corazón (`tapetes.blend`), escoba |
+| Sebastian | `Modelos/Sebastian/` | Tumba y pan de muerto (`Modelos.blend`), papel picado (`Decoracion.blend`), tumba de tierra, tumba de azulejo y cruz de tumba (`tumbas.blend`), lápida rota, cruz vieja y hierba seca (`zona_vieja.blend`), tapetes de franjas y de vela (`tapetes.blend`), botella |
+| Melissa | `Modelos/Melissa/` | Altar, vela, flama y copalero (`altar_con_flamas.blend`), coronas blanca, de corazón, de cruz y de flores (`coronas.blend`), veladora de vaso, silla plegable y cazuela (`cosas_familia.blend`) |
+
+Animaciones hechas en Blender:
+
+| Integrante | Archivos | Animación |
+|---|---|---|
+| Yasser | `anim_caminar.blend`, `reja_animada.blend` | Hombre que camina (huesos) y reja que se abre (objetos) |
+| Sebastian | `anim_abrazar.blend`, `mariposas.blend` | Niño que abraza una tumba (huesos) y mariposas monarca (objetos) |
+| Melissa | `anim_rezar.blend`, `humo_copal.blend` | Señora que reza (huesos) y humo de copal (objetos) |
+
+`Modelos/Cargados/` tiene los modelos cargados o generados con IA y adaptados para la escena: escenario con barda y reja, capilla, ángel del dolor, árbol, catrina, platillos del altar (en `modelos_cargados/`), ofrenda tradicional, mausoleo, angelito, xoloitzcuintle, terrazas, cruz atrial, tumba de tierra vieja, cubeta, tapetes de sol, de calavera y de mariposa, coronas amarilla, con banda, de gladiolas y de lágrima, personas y la banda de siete músicos.
+
+## La escena
+
+`Escena/escena_layout.txt` tiene una línea por objeto (`modelo x y z rotY escala [r g b]`) y el programa la lee al arrancar: 1,291 objetos de 72 modelos distintos, con 274 velas, 16 veladoras de vaso y 48 personas. `Escena/escena_preview.blend` muestra la misma escena en Blender, como referencia, y `Escena/preview_*.png` son capturas del programa.
+
 ## Cómo colaborar
 
 - Antes de trabajar y antes de subir algo, trae los cambios del equipo (*Fetch origin* y *Pull* en GitHub Desktop).

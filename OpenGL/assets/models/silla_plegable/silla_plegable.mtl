@@ -1,0 +1,22 @@
+# Blender 5.2.2 LTS MTL File: 'silla_plegable.blend'
+# www.blender.org
+
+newmtl Asiento_Silla
+Ns 159.999985
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd asiento_silla.png
+
+newmtl Metal_Silla
+Ns 302.500000
+Ka 0.600000 0.600000 0.600000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd metal_silla.png

@@ -21,6 +21,10 @@ Recorrido por la escena y las animaciones: https://youtu.be/aELgFKHT_Xw
 - [Reporte final en español](docs/reportes/Reporte_final_ES_Equipo_Tilines.pdf)
 - [Final report in English](docs/reportes/Final_report_EN_Team_Tilines.pdf)
 
+## Descarga
+
+El instalador para Windows y la versión portable están en [Releases](https://github.com/VvyasservV/ProyectoBlenderTeoria_OfrendadeDiadeMuertos/releases/latest). Con la versión instalada no hace falta Visual Studio.
+
 ## Integrantes
 
 | Nombre | No. de cuenta |

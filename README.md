@@ -12,6 +12,10 @@ Cada 1 y 2 de noviembre, las familias mexicanas visitan a sus difuntos en los pa
 
 La escena corre en tiempo real en OpenGL 3.3 con shaders en GLSL: iluminación de Phong con luna, velas y linterna, brillo de Fresnel, niebla, skybox y nueve animaciones que se activan con el teclado.
 
+## Video
+
+Recorrido por la escena y las animaciones: https://youtu.be/aELgFKHT_Xw
+
 ## Integrantes
 
 | Nombre | No. de cuenta |

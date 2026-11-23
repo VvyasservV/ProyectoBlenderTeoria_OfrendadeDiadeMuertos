@@ -14,7 +14,7 @@ La escena corre en tiempo real en OpenGL 3.3 con shaders en GLSL: iluminación d
 
 ## Video
 
-Recorrido por la escena y las animaciones: https://youtu.be/aELgFKHT_Xw
+Recorrido por la escena y las animaciones: https://youtu.be/2um3ZI8bLQo
 
 ## Reportes
 

@@ -16,6 +16,11 @@ La escena corre en tiempo real en OpenGL 3.3 con shaders en GLSL: iluminación d
 
 Recorrido por la escena y las animaciones: https://youtu.be/aELgFKHT_Xw
 
+## Reportes
+
+- [Reporte final en español](docs/reportes/Reporte_final_ES_Equipo_Tilines.pdf)
+- [Final report in English](docs/reportes/Final_report_EN_Team_Tilines.pdf)
+
 ## Integrantes
 
 | Nombre | No. de cuenta |

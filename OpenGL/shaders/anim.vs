@@ -34,12 +34,11 @@ void main()
         p.z += viento * ola * (0.5 * bajo + 0.06) * centro;
         p.y += viento * 0.04 * abs(ola) * bajo * centro;
     }
-    mat4 m = model;
-    if (piel == 1)
-    {
-        mat4 s = huesos[huesoIds.x] * pesos.x + huesos[huesoIds.y] * pesos.y + huesos[huesoIds.z] * pesos.z + huesos[huesoIds.w] * pesos.w;
-        m = model * s;
-    }
+    // sin if: el compilador de AMD dejaba de dibujar todo lo de este shader con el if (piel == 1)
+    float k = (piel == 1) ? 1.0 : 0.0;
+    ivec4 id = clamp(huesoIds, 0, MAX_HUESOS - 1);
+    mat4 s = huesos[id.x] * pesos.x + huesos[id.y] * pesos.y + huesos[id.z] * pesos.z + huesos[id.w] * pesos.w;
+    mat4 m = model * (s * k + mat4(1.0) * (1.0 - k));
     gl_Position = projection * view * m * vec4(p, 1.0f);
     FragPos = vec3(m * vec4(p, 1.0f));
     Normal = mat3(transpose(inverse(m))) * normal;
